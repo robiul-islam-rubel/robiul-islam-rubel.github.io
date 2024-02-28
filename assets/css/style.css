@@ -15,7 +15,14 @@ body {
   font-weight: bold;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;;
 }
-
+.pl-5 {
+  padding-left: 5px;
+  
+}
+.pr-5 {
+  padding-right: 5px;
+  
+}
 
 @media (min-width: 1024px) {
   body::before {
@@ -23,9 +30,10 @@ body {
   }
 }
 
-a {
-  color:slategray;
+
+.left-content a {
   text-decoration: none;
+  color: #494e52;
 }
 
 a:hover {
