@@ -1,7 +1,7 @@
 body {
-  font-family: "Open Sans", sans-serif;
-  color: white;
-  background-color: black;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  color:#494e52;
+  background-color: white;
   position: relative;
 }
 .body-container {
@@ -10,10 +10,16 @@ body {
   background-image: url('/assets/img/aust.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: black;
   position: relative;
 
 }
+.profile-name p {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;;
+}
+
 
 @media (min-width: 1024px) {
   body::before {
@@ -22,7 +28,7 @@ body {
 }
 
 a {
-  color: #18d26e;
+  color:slategray;
   text-decoration: none;
 }
 
@@ -245,6 +251,44 @@ h6 {
   color: #fff;
 }
 
+/* body content */
+
+.main-container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  justify-content: center;
+  display: flex;
+}
+.profile-img {
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.left-content {
+  display: flex;
+  flex-direction: column;
+}
+.right-content {
+  padding-left: 1em;
+}
+.h1 {
+  font-size: 1.563em;
+  font-weight: bold;
+  color: #494e52;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  line-height: 1.5;
+}
+.about-me p {
+  font-size: 1em;
+  margin: 0 0 1.3em;
+}
+li a {
+  text-decoration: underline;
+  color: #52adc8;
+}
 /**
 * Mobile Navigation 
 */
@@ -414,6 +458,7 @@ section .container {
 .about-me .content p:last-child {
   margin-bottom: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Counts
@@ -634,11 +679,14 @@ section .container {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(240, 231, 231, 0.996);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+}
+.resume .resume-item p {
+  color:turquoise;
 }
 
 .resume .resume-item ul {
@@ -1146,8 +1194,8 @@ nav ul li {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color:black;
+    color: black;
     text-align: center;
     padding: 1em;
     position: fixed;
