@@ -7,7 +7,6 @@ body {
 .body-container {
   font-family: "Open Sans", sans-serif;
   /* background: linear-gradient(to bottom right,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('/assets/img/IUB.png'); */
-  background-image: url('/assets/img/aust.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
