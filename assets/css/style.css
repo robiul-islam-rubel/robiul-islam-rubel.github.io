@@ -23,6 +23,18 @@ body {
   padding-right: 5px;
   
 }
+.col-lg-12 {
+  color: white;
+}
+.text-w {
+  color: white;
+}
+.col-lg-12 a {
+  text-decoration: none;
+}
+.text-none a {
+  text-decoration: none;
+}
 
 @media (min-width: 1024px) {
   body::before {
