@@ -228,7 +228,6 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: goldenrod;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -1188,7 +1187,7 @@ section .container {
   background: #15bb62;
 }
 header {
-  background-color: #333;
+  background-color: black;
   color: white;
   text-align: center;
   padding: 1em;
