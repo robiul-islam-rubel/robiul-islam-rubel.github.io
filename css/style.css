@@ -270,6 +270,26 @@ h3.signature {
 .recent-news {
   font-family: "Montserrat", Arial, sans-serif;
 }
+.recent-news a {
+    font-family: Verdana, Arial;
+    font-size: 12.0pt;
+    font-weight: 700;
+    text-decoration: underline;
+    vertical-align: baseline;
+    color: black;
+}
+.recent-news p {
+  font-family: Verdana, Arial;
+    font-size: 12.0pt;
+    font-variant: normal;
+    font-weight: 400;
+    vertical-align: baseline;
+    color: black;
+}
+
+.recent-news ul {
+  list-style-type: none;
+}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
@@ -283,7 +303,12 @@ h3.signature {
 }
 
 .date {
-  color: #f4a460;
+  color: #ff0000;
+  font-family: Verdana, Arial;
+  font-size: 12.0pt;
+  font-variant: normal;
+  font-weight: 700;
+  vertical-align: baseline;
 }
 
 .hero-img {
