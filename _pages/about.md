@@ -14,8 +14,8 @@ nav: about
   <div class="row mt-3 mb-3">
     <div class="col">
       <h6 class="mt-1 text-center text-sm-center" style="font-stretch: ultra-condensed;">
-        Research Scientist<br/>
-        Scaled Cognition
+        VP of Research<br/>
+        <a href="https://www.scaledcognition.com/">Scaled Cognition</a>
       </h6>
     </div>
     <!-- <div class="col-sm-6">
@@ -38,7 +38,7 @@ nav: about
 <!-- Introduction -->
 
 <div class="col text-justify p-0">
-  I am a research scientist at Scaled Cognition and a member of the initial team, where we are developing a new generation of rational, controllable AI models deployable as domain experts for grounded, real-world applications.
+  I am the VP of Research at <a href="https://www.scaledcognition.com/">Scaled Cognition</a> and a member of the founding team, where we are developing the next generation of LLMs for agentic use cases, which are reliable, offer certain classes of hard guarantees on their behavior, and do not hallucinate.
   <br/><br/>
   Previously, I was a Senior Principal Researcher at <a href="https://www.microsoft.com/en-us/research/project/semantic-machines/" target="_blank">Microsoft Semantic Machines</a>, where I led the design and development of a system that aims to predict the next user action (e.g., sending an email, opening a file, adding specific people to a calendar invite, etc.) based on what a user and others in their network have been doing (underlying this system was a novel Foundation Model over user actions). I managed a team across both research and engineering, and helped set the technical direction for the broader organization. I invested heavily in aligning research and engineering, and I worked closely with multiple partner teams at Microsoft to deliver on our objectives, while also helping improve the underlying platform and infrastructure that we leveraged. Earlier on in my career at Microsoft I also served as a key contributor to the research and development of the Semantic Machines conversational AI platform which handled user requests by using a neural network to synthesize computer programs in a new proprietary programming language. I designed and shipped the program synthesis neural network (i.e., a contextual semantic parser) that powers the platform.
   <br/><br/>

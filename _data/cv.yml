@@ -22,11 +22,11 @@
       year: 2013-2020
       description:
         - Awarded the <b>CMU Presidential Fellowship</b>.
-        - '<u>GPA:</u> <b>4.18</b> (4.0 scale).'
+        - "<u>GPA:</u> <b>4.18</b> (4.0 scale)."
         - '<u>Advisor:</u> <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a>.'
         - 'I worked on the <a href="http://rtw.ml.cmu.edu/" target="_blank"><b>Never Ending Language Learning (NELL)</b></a> project.'
-        - 'My thesis work was on <b>Learning Collections of Functions</b>.'
-        - title: 'I performed research on topics related to <b>self-reflection in machine learning</b>:'
+        - "My thesis work was on <b>Learning Collections of Functions</b>."
+        - title: "I performed research on topics related to <b>self-reflection in machine learning</b>:"
           contents:
             - I developed multiple methods for using unlabeled data to estimate the accuracies of several different classifiers performing the same task, that I have presented at Uncertainty in Artificial Intelligence (<b>UAI</b>) in 2014, International Conference in Machine Learning (<b>ICML</b>) in 2016, and at Neural Information Processing Systems (<b>NIPS</b>) in 2017.
             - I developed a method for performing <b>low-resource and zero-shot multilingual machine translation</b>.
@@ -35,19 +35,19 @@
     - title: Carnegie Mellon University – M.S. in Machine Learning.
       year: 2013-15
       description:
-        - '<u>GPA:</u> 4.18 (4.0 scale).'
+        - "<u>GPA:</u> 4.18 (4.0 scale)."
         - '<u>Advisor:</u> <a href="http://www.cs.cmu.edu/~tom/" target="_blank">Prof. Tom M. Mitchell</a>.'
-        - '<u>Thesis:</u> <b>Estimating Accuracy from Unlabeled Data</b>.'
+        - "<u>Thesis:</u> <b>Estimating Accuracy from Unlabeled Data</b>."
         - Master's degree requirements completed while working towards obtaining my Ph.D. in machine learning.
     - title: Imperial College London – M.Eng. and ACGI in Electrical and Electronic Engineering.
       year: 2009-13
       description:
         - Integrated Bachelor's and Master's degree.
         - <b>Dean’s List</b> for exceptional academic performance (all four years).
-        - title: '<u>Grade:</u> 91.67% (top 1% of class) with <b>92.37%</b> on the final exams – <b>First-Class Honors Degree</b>.'
+        - title: "<u>Grade:</u> 91.67% (top 1% of class) with <b>92.37%</b> on the final exams – <b>First-Class Honors Degree</b>."
           contents:
             - Equivalent to <b>4.0 GPA</b> in the USA academic system.
-        - title: '<u>Thesis Title:</u> <b>Human Motion Classification Using Statistical Machine Learning Methods</b>.'
+        - title: "<u>Thesis Title:</u> <b>Human Motion Classification Using Statistical Machine Learning Methods</b>."
           contents:
             - Awarded the <b>Sir Bruce White prize in engineering</b> for the best final year project.
         - title: '<u>Third Year Summer Research Project:</u> "Bayesian Machine Learning Methodologies for Modeling Time Series with High Volatility".'
@@ -57,59 +57,60 @@
 - title: Work Experience
   type: table
   contents:
-    - title: 'Research Scientist at Scaled Cognition.'
+    - title: "VP of Research at Scaled Cognition."
       year: 2023-now
       description:
-        - Developing a new generation of rational, controllable AI models deployable as domain experts for grounded, real-world applications.
-    - title: 'Senior Principal Researcher (L67) at Microsoft Semantic Machines.'
+        - Developing the next generation of LLMs for agentic use cases, which are reliable, offer certain classes of hard guarantees on their behavior, and do not hallucinate.
+        - Member of the founding team.
+    - title: "Senior Principal Researcher (L67) at Microsoft Semantic Machines."
       year: 2023
       description:
         - Served as a technical leader, managing a team across both research and engineering, and helping set technical direction for the broader organization. I invested heavily in aligning research and engineering, and I worked closely with multiple partner teams at Microsoft to deliver on our objectives, while also helping improve the underlying platform and infrastructure that we leveraged.
-    - title: 'Principal Researcher (L65) at Microsoft Semantic Machines.'
+    - title: "Principal Researcher (L65) at Microsoft Semantic Machines."
       year: 2022
       description:
         - Led the design and development of a system that learns to predict the next user action (e.g., sending an email, opening a file, adding specific people to a calendar invite, etc.) based on what a user and others in their network have been doing. Underlying this system is a novel Foundation Model over user actions.
-    - title: 'Senior Researcher (L64) at Microsoft Semantic Machines.'
+    - title: "Senior Researcher (L64) at Microsoft Semantic Machines."
       year: 2020-2022
       description:
         - '<u>Manager:</u> <a href="https://people.eecs.berkeley.edu/~klein/" target="_blank"><b>Dan Klein</b></a>, Technical Fellow.'
         - Designed and shipped a contextual semantic parser that powers the Semantic Machines conversational AI platform.
         - Worked on multiple research projects leading to academic publications at the intersection of natural language processing and machine learning.
-    - title: 'Research Analyst Consultant at Cubist Systematic Strategies.'
+    - title: "Research Analyst Consultant at Cubist Systematic Strategies."
       year: 2016-17
       description:
         - Worked for the Advanced Methods Groups (AMG) in new machine learning-driven approaches for end-to-end algorithmic trading systems.
         - Developed the main pipeline for trading algorithms research and for integrating these algorithms in a new production system.
-    - title: 'Research Intern at Microsoft Research.'
+    - title: "Research Intern at Microsoft Research."
       year: 2015
       description:
         - '<u>Manager:</u> <a href="http://erichorvitz.com" target="_blank"><b>Dr. Eric Horvitz</b></a>, Distinguished Scientist and Managing Director of Microsoft Research.'
         - '<u>Collaborators:</u> <a href="https://www.microsoft.com/en-us/research/people/hoifung/" target="_blank"><b>Dr. Hoifung Poon</b></a> and <a href="https://www.microsoft.com/en-us/research/people/akapoor/" target="_blank"><b>Dr. Ashish Kapoor</b></a>.'
-        - '<u>First 3 months:</u> Developed a probabilistic logic-based approach for accuracy estimation using unlabeled data, as part of the Literome Project.'
-        - '<u>Last 3 months:</u> Active learning amidst logical knowledge.'
-    - title: 'Co-Founder, President and Chief Technology Officer (CTO) at Holic.'
+        - "<u>First 3 months:</u> Developed a probabilistic logic-based approach for accuracy estimation using unlabeled data, as part of the Literome Project."
+        - "<u>Last 3 months:</u> Active learning amidst logical knowledge."
+    - title: "Co-Founder, President and Chief Technology Officer (CTO) at Holic."
       year: 2010-13
       description:
         - Developed an intelligent news reader application.
         - Developed algorithms utilizing advanced nonparametric Bayesian models for clustering news articles and for user profiling.
-        - title: 'Received €400,000 funding from the following investors:'
+        - title: "Received €400,000 funding from the following investors:"
           contents:
             - Dr. John Coustas, President & CEO of Danaos Corporation.
             - Mr. Leon Yohai, Founder & CEO of ZuluTrade.
-    - title: 'Founder of Project Protasis – Forest Protection.'
+    - title: "Founder of Project Protasis – Forest Protection."
       year: 2008-10
       description:
         - Developed a forest fire detection and prevention system.
         - Developed both hardware and software (involving use of neural networks for recognizing fire and smoke in photos).
         - Installed prototype in “Alsos Syggrou”, a wooded area in Athens, funded by the Greek government.
-        - 'Got patent approved in Greece (<b>Patent #: 20110100016</b>) and international patent pending approval.'
+        - "Got patent approved in Greece (<b>Patent #: 20110100016</b>) and international patent pending approval."
         - Interviewed by CNN, as well as several newspapers, magazines and other TV channels, regarding this project.
         - Won the 2<sup>nd</sup> place in the <b>Microsoft Imagine Cup 2009</b> Greek Finals with this project.
-    - title: 'Web Designer and Software Developer at Curtainmakers S.A.'
+    - title: "Web Designer and Software Developer at Curtainmakers S.A."
       year: 2010
-    - title: 'Founder of Project Protasis – Home Automation.'
+    - title: "Founder of Project Protasis – Home Automation."
       year: 2007-09
-      description: 
+      description:
         - Developed a smart home automation system that controls all electrical appliances, heating systems and water systems and aims to reduce domestic energy consumption while making the lives of homeowners as comfortable as possible.
         - Developed software, employing several machine learning algorithms.
         - Was funded by the Greek government and more specifically, by the Organization of School Buildings.
@@ -144,10 +145,10 @@
   type: table
   contents:
     - year: 2017
-      items: 
+      items:
         - 2<sup>nd</sup> place in the CMU NeuroHackathon.
     - year: 2016
-      items: 
+      items:
         - <b>CMU Presidential Fellowship</b>.
     - year: 2010-13
       items:
@@ -170,28 +171,28 @@
         - Represented Greece in the <b>Microsoft Imagine Cup 2008 Worldwide Finals</b>, in Paris, France, with "Project Protasis - Home Automation".
         - 1<sup>st</sup> place in the Microsoft Imagine Cup 2008 Greek Finals with "Project Protasis - Home Automation", competing against teams from universities, at age of only 16 and having worked without a team or a mentor (also won the 2<sup>nd</sup> place in the Microsoft Imagine Cup 2009 Greek Finals with "Project Protasis - Forest Protection").
     - year: 2007
-      items: 
+      items:
         - <b>Certificate of Excellence</b> for the school year 2006-07 from the Greek Ministry of Education and Religious Affairs.
         - 3<sup>rd</sup> place (bronze medal) in the <b>Greek Mathematics Olympiad</b>, organized by the Hellenic Mathematical Society.
     - year: 2003-07
-      items: 
+      items:
         - <b>11 scholarships</b> and competitions in the fields of mathematics, sciences and computer science.
 
 - title: Teaching Experience
   type: table
   contents:
-    - title: '<b>Provided support for an advanced graduate-level course on machine learning at Carnegie Mellon University.</b>'
+    - title: "<b>Provided support for an advanced graduate-level course on machine learning at Carnegie Mellon University.</b>"
       year: 2018
       description:
-        - '<u>Class:</u> 10-812 Architectures for Never-Ending Learning.'
+        - "<u>Class:</u> 10-812 Architectures for Never-Ending Learning."
         - Taught by <b>Prof. Tom Mitchell</b>.
         - Gave a couple of lectures and helped with the organization of the class.
         - Designed and co-led the implementation of the software testbed used to support the course projects.
         - Mentored several students working on class projects.
-    - title: '<b>Teaching Assistant for a graduate-level machine learning course at Carnegie Mellon University.</b>'
+    - title: "<b>Teaching Assistant for a graduate-level machine learning course at Carnegie Mellon University.</b>"
       year: 2014, 16
       description:
-        - '<u>Class:</u> 10-701/15-781 Introduction to Machine Learning.'
+        - "<u>Class:</u> 10-701/15-781 Introduction to Machine Learning."
         - Did this for two semesters (taught by <b>Prof. Geoff Gordon</b> and <b>Prof. Aarti Singh</b> in 2014, and <b>Prof. Tom Mitchell</b> in 2016).
         - Gave some lectures and some recitation lectures.
         - Mentored several groups of students working on class projects.
@@ -200,62 +201,62 @@
 - title: Services
   type: nested_list
   contents:
-    - title: 'Program Committees'
-      items: 'NeurIPS (2018-23), TMLR (2023), ACL (2020), JMLR (2020), EMNLP (2018-20), ICML (2019), PLOS-ONE (2018-19), IEEE-TPAMI (2018), and NIPS-AKBC (2016).'
-    - title: 'Conference Workshops Organized'
+    - title: "Program Committees"
+      items: "NeurIPS (2018-23), TMLR (2023), ACL (2020), JMLR (2020), EMNLP (2018-20), ICML (2019), PLOS-ONE (2018-19), IEEE-TPAMI (2018), and NIPS-AKBC (2016)."
+    - title: "Conference Workshops Organized"
       items:
-        - '2019: ICML Adaptive & Multi-Task Learning.'
-        - '2019: ICLR Learning with Limited Labeled Data.'
-        - '2017: NIPS Learning with Limited Labeled Data.'
-    - title: 'University Committees'
+        - "2019: ICML Adaptive & Multi-Task Learning."
+        - "2019: ICLR Learning with Limited Labeled Data."
+        - "2017: NIPS Learning with Limited Labeled Data."
+    - title: "University Committees"
       items:
         - '2018-20: <a href="https://blog.ml.cmu.edu/">CMU MLD Blog</a> co-founder and editor.'
-        - '2018-19: CMU AI+ Club co-founder and leadership team member.'
-        - '2018-19: Doctoral review committee (DRC) for the CMU Machine Learning Department.'
-        - '2017-18: Speaking skills committee for the CMU Machine Learning Department.'
-        - '2016-18: Education review committee (ERC) for the CMU Machine Learning Department.'
-        - '2014-15: Social committee for the CMU Machine Learning Department.'
-    - title: 'Community Service'
+        - "2018-19: CMU AI+ Club co-founder and leadership team member."
+        - "2018-19: Doctoral review committee (DRC) for the CMU Machine Learning Department."
+        - "2017-18: Speaking skills committee for the CMU Machine Learning Department."
+        - "2016-18: Education review committee (ERC) for the CMU Machine Learning Department."
+        - "2014-15: Social committee for the CMU Machine Learning Department."
+    - title: "Community Service"
       items:
-        - '2009: Volunteer at the Lavrion refugee center, in Athens, Greece.'
-        - '2008: Reforestation of mountainside in Rafina, Greece.'
-        - '2008: Volunteer for the International Baccalaureate Organization (IBO) training workshop.'
+        - "2009: Volunteer at the Lavrion refugee center, in Athens, Greece."
+        - "2008: Reforestation of mountainside in Rafina, Greece."
+        - "2008: Volunteer for the International Baccalaureate Organization (IBO) training workshop."
         - '2008: 13<sup style="vertical-align: top; position: relative; top: 0.5em;">th</sup> Annual Underwater and Beach Cleanup in Athens, Greece.'
         - '2008: Helped organize the "Christmas Bazaar" (fund raiser project).'
         - '2008: Helped organize the "Love Feast" (celebrating  family values and fund raising for the victims of forest fires in Greece).'
-        - '2007: Reforestation in Mani, Greece.'
+        - "2007: Reforestation in Mani, Greece."
         - '2007: Volunteer at the "AQUA GALA" event for physically challenged children, for the "Hellenic Society for Disabled Children".'
 
 - title: Major Talks
   type: table
   contents:
-    - title: 'Competence-based Curriculum Learning for Neural Machine Translation.'
+    - title: "Competence-based Curriculum Learning for Neural Machine Translation."
       year: 2019
       description:
-        - 'North American Chapter of the Association for Computational Linguistics (<b>NAACL</b>) conference.'
-    - title: 'TensorFlow Scala.'
+        - "North American Chapter of the Association for Computational Linguistics (<b>NAACL</b>) conference."
+    - title: "TensorFlow Scala."
       year: 2018
       description:
-        - 'Invited talk at <b>Google</b>.'
-    - title: 'Estimating Accuracy from Unlabeled Data.'
+        - "Invited talk at <b>Google</b>."
+    - title: "Estimating Accuracy from Unlabeled Data."
       year: 2014-18
       description:
         - Neural Information Processing Systems (<b>NIPS</b>) conference.
         - International Conference in Machine Learning (<b>ICML</b>) conference.
         - Uncertainty in Artificial Intelligence (<b>UAI</b>) conference.
-        - 'Invited talk at <b>Google</b>.'
+        - "Invited talk at <b>Google</b>."
         - AI Lunch at Stanford University.
         - ML Lunch at Carnegie Mellon University.
-    - title: 'Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes.'
+    - title: "Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes."
       year: 2012
       description:
         - '"Nonparametric Methods in Machine Learning" workshop at <b>NIPS</b>.'
-    - title: 'Project Protasis - Forest Protection.'
+    - title: "Project Protasis - Forest Protection."
       year: 2009
       description:
         - <b>Microsoft Hellas Headquarters</b>.
         - <b>Ministry of Transportation</b> of the Greek government (the Ministry later funded a pilot program).
-    - title: 'Project Protasis - Home Automation.'
+    - title: "Project Protasis - Home Automation."
       year: 2008-09
       description:
         - <b>Microsoft Hellas Headquarters</b>.
@@ -271,7 +272,7 @@
   contents:
     - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a> (~1.2k stars from open-source projects).'
     - '<u>Machine Learning Frameworks:</u> <a href="https://pytorch.org/" target="_blank">PyTorch</a>, <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>.'
-    - '<u>High Level Programming Languages:</u> Rust, Python, Scala, Swift, Java, C#, C, C++, Pascal, Prolog, MATLAB, Mathematica, JavaScript, ...'
+    - "<u>High Level Programming Languages:</u> Rust, Python, Scala, Swift, Java, C#, C, C++, Pascal, Prolog, MATLAB, Mathematica, JavaScript, ..."
     # - '<u>Low Level Programming Languages:</u> Intel 80x86 Assembly, ARM Assembly, AVR Assembly.'
     # - '<u>Programming Environments (IDEs):</u> IntelliJ IDEA, Visual Studio, MATLAB, Eclipse, NetBeans, Mathematica, SWI-Prolog IDE, ...'
     # - '<u>Database Systems:</u> PostgreSQL, MS SQL Server, MySQL.'
@@ -279,5 +280,5 @@
 - title: Other Interests
   type: list
   contents:
-    - '<u>Sports:</u> Tennis, Squash, Winter Skiing, Basketball, Sailing, and Windsurfing.'
-    - '<u>Hobbies:</u> Traveling, Philosophy, and Politics (I also really want to learn to play the Guitar).'
+    - "<u>Sports:</u> Tennis, Squash, Winter Skiing, Basketball, Sailing, and Windsurfing."
+    - "<u>Hobbies:</u> Traveling, Philosophy, and Politics (I also really want to learn to play the Guitar)."
