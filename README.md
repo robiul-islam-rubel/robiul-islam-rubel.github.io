@@ -1,1 +1,1 @@
-This repo  contains the source materials for my personal website.
+This repo is cloned from Taminul Islam. All the credit for the design of the website goes to him. I just made some changes.
