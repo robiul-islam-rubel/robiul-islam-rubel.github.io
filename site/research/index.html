@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Robiul Islam">
+<meta name="description" content="<strong>?meta:website.description</strong>">
+
+<title>Publications | Robiul Islam</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+  }
+
+  /* Publication type badges */
+  .pub-type-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-right: 8px;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  
+  .pub-type-journal {
+    background-color: #28a745;
+  }
+  
+  .pub-type-conference {
+    background-color: #e91e63;
+  }
+  
+  .pub-type-book {
+    background-color: #ff9800;
+  }
+
+  .pub-type-preprint {
+    background-color: #6c757d;
+  }
+
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    /* Year filter responsive */
+    .year-filter {
+      padding: 0 1rem;
+    }
+    
+    .year-filter .btn {
+      padding: 6px 12px;
+      font-size: 0.85rem;
+      margin: 1px;
+      min-width: 60px;
+    }
+    
+    /* Main content adjustments */
+    .content {
+      padding: 0 1rem !important;
+    }
+    
+    .container-fluid {
+      padding: 0 1rem;
+    }
+    
+    /* Publication listings */
+    .project-container {
+      flex-direction: column !important;
+      gap: 15px !important;
+    }
+    
+    .project-content {
+      flex: 1 !important;
+    }
+    
+    .feature-image {
+      flex: none !important;
+      max-width: 100% !important;
+      min-width: auto !important;
+      width: 100% !important;
+      text-align: center;
+    }
+    
+    .feature-image img {
+      width: 100% !important;
+      max-width: 300px !important;
+      height: 180px !important;
+      margin: 0 auto;
+      display: block;
+    }
+    
+    /* Publication badges and text */
+    .pub-type-badge {
+      font-size: 10px;
+      padding: 2px 6px;
+    }
+    
+    .project-content p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    
+    /* Project links */
+    .project-links {
+      flex-wrap: wrap !important;
+      gap: 8px !important;
+    }
+    
+    .project-link a {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.8rem;
+      border-radius: 15px;
+      display: inline-block;
+      min-width: 80px;
+      text-align: center;
+    }
+    
+    /* BibTeX content */
+    .bibtex-content {
+      position: static !important;
+      width: 100% !important;
+      margin-top: 10px !important;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    .bibtex-content pre {
+      font-size: 0.75rem !important;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+    
+    /* Spacing adjustments */
+    .project {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border-bottom: 1px solid #eee;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    h3 {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    /* Ultra small screens */
+    .year-filter {
+      padding: 0 0.5rem;
+    }
+    
+    .year-filter .btn {
+      padding: 5px 8px;
+      font-size: 0.8rem;
+      min-width: 50px;
+    }
+    
+    .content {
+      padding: 0 0.75rem !important;
+    }
+    
+    .container-fluid {
+      padding: 0 0.75rem;
+    }
+    
+    .feature-image img {
+      height: 150px !important;
+      max-width: 250px !important;
+    }
+    
+    .project-content p {
+      font-size: 0.85rem;
+    }
+    
+    .project-link a {
+      padding: 0.35rem 0.6rem;
+      font-size: 0.75rem;
+      min-width: 70px;
+    }
+    
+    .project {
+      padding: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .pub-type-badge {
+      font-size: 9px;
+      padding: 2px 5px;
+    }
+    
+    .bibtex-content {
+      padding: 10px;
+    }
+    
+    .bibtex-content pre {
+      font-size: 0.7rem !important;
+    }
+    
+    h2 {
+      font-size: 1.3rem;
+    }
+    
+    h3 {
+      font-size: 1.1rem;
+    }
+  }
+
+  /* Global responsive images for research page */
+  .feature-image img,
+  .poster-thumbnail {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<link rel="stylesheet" href="../site_libs/bibtex/bibtex-styles.css">
+<script src="../site_libs/bibtex/bibtex-functions.js"></script>
+<script src="../site_libs/bibtex/bibtex-toggle.js"></script>
+<meta name="quarto:offset" content="../">
+<!-- <link href="..//files/favicon-512.png" rel="icon" type="image/png"> -->
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/year-filter/year-filter.js"></script>
+<script src ="../../site/html/about.css"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-conference-papers .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-ipynb-filters','listing-project','listing-freeze','listing-bibliography','listing-csl','listing-pagetitle','listing-description-meta','listing-author-meta','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-page-layout','listing-title','listing-date','listing-author','listing-categories','listing-pub-info','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-ipynb-filters","listing-project","listing-freeze","listing-bibliography","listing-csl","listing-pagetitle","listing-description-meta","listing-author-meta","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-page-layout","listing-title","listing-date","listing-author","listing-categories","listing-pub-info","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-doi"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-conference-papers'] = new List('listing-conference-papers', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-3THLGK2G1N"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-3THLGK2G1N', { 'anonymize_ip': true});
+</script>
+<link rel="stylesheet" href="../html/research-styles.css">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Research | Robiul Islam">
+<meta property="og:description" content="Robiul Islam is interested in Autonomous Driving &amp; deep learning.">
+<meta property="og:site_name" content="**Robiul** Islam">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:title" content="Research | Robiul Islam">
+<meta name="twitter:description" content="Robiul Islam is interested in Autonomous Driving &amp; deep learning.">
+<meta name="twitter:creator" content="@robiul-islam">
+<meta name="twitter:site" content="@robiul-islam">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+  <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <!-- <span class="navbar-title"><strong>Taminul</strong> Islam</span> -->
+    <div style="width: 322px; max-width: calc(100% - 50px);"><a> <img src="https://cdsp.wm.edu/-images/cdsp-hor-full-color.svg" style="max-width: 100%; width: auto;"></a> </div>
+
+    </a>
+  </div>
+            <!-- <div id="quarto-search" class="" title="Search"></div> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+  <ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="./index.html">
+<span class="menu-text">Home</span></a>
+</li>  
+<li class="nav-item">
+<a class="nav-link" href="./site/research/index.html"> 
+<span class="menu-text">Publications</span></a>
+</li>  
+<li class="nav-item">
+<a class="nav-link" href="./site/projects/projects.html"> 
+<span class="menu-text">Projects</span></a>
+</li>  
+<!-- <li class="nav-item">
+  <a class="nav-link" href="./site/talks/index.html"> 
+  <span class="menu-text">Presentation/Talks</span></a>
+</li>  -->
+<!-- <li class="nav-item">
+  <a class="nav-link" href="./site/poster/index.html"> 
+  <span class="menu-text">Poster</span></a>
+  </li>  -->
+<li class="nav-item">
+  <a class="nav-link" href="./site/projects/projects.html"> 
+  <span class="menu-text">Moments</span></a>
+  </li> 
+<li class="nav-item">
+  <a class="nav-link" href="https://drive.google.com/file/d/1iFQZNsQg9aUKIhkP00-84NAr-MtBR7jk/view?usp=sharing" target="_blank"> 
+    <span class="menu-text">Resume</span></a>
+</li>  
+<li class="nav-item">
+<a class="nav-link active" href="./site/service/index.html" aria-current="page"> 
+<span class="menu-text">Service</span></a>
+</li> 
+<span class="menu-text"></span></a>
+</li>  
+</ul>
+</div> <!-- /navcollapse -->
+<div class="quarto-navbar-tools">
+</div>
+</div> <!-- /container-fluid -->
+</nav>
+</header>
+
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block research default page-columns page-full">
+
+    
+    
+    
+    <div class="quarto-title-meta column-page-left">
+
+        
+      
+        
+      </div>
+      
+
+
+
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+
+<main class="content quarto-banner-title-block column-page container-fluid" id="quarto-document-content" style="max-width: 1200px; margin: 0 auto;">
+
+  
+<!-- Filter by Year Section -->
+<div class="text-center mb-4">
+  <div class="year-filter-simple">
+    <span class="year-btn-simple active" data-year="all">All</span>
+    <span class="year-btn-simple" data-year="2026">2026</span>
+    <span class="year-btn-simple" data-year="2025">2025</span>
+    <span class="year-btn-simple" data-year="2024">2024</span>
+  </div>
+</div>
+
+
+
+<section id="publications" class="level1">
+  <h2 data-anchor-id="publications">Publications</h2>
+
+
+
+  <div id="listing-journal-papers" class="quarto-listing quarto-listing-container-custom">
+  <div class="research project-list">
+  <ul class="list">
+<!-- 2025 PUBLICATIONS -->
+<li class="project" data-year="2025" data-categories="Computer Vision, Semantic Segmentation, Agriculture, Deep Learning" style="border-left: none;">
+  <div class="publication-wrapper" style="border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; background: #fafafa; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <div class="project-container" style="display: flex; gap: 20px; align-items: start;">
+      <div class="project-content" style="flex: 2;">
+        <div class="listing-pub-info">
+      <p>
+        <span class="pub-type-badge pub-type-conference">Conference</span><b>Md Robiul Islam</b>. "Application of Multimodal Large Language Models
+        in Autonomous Driving"<em></em>, 2025.
+        <br> arXiv: <a href="https://arxiv.org/pdf/2412.16410"><code>arXiv:2405.01873</code></a></p>
+  </div>
+
+  <div class="project-details-listing" style="background: none; box-shadow: none;">
+    <ul class="project-links" style="display: flex; gap: 10px; list-style: none; padding: 0;">
+        <li class="project-link details" style="width: fit-content; background: none; border: 2px solid #000; border-radius: 8px; padding: 8px 12px; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+            <a href="#" class="listing-name bibtex-toggle" style="display: inline-block; color: #000; text-decoration: none;">
+                <i class="fa-solid fa-circle-info" style="color: #000;"></i> BibTex »
+            </a>
+          
+          <div class="bibtex-content" style="position: absolute; background: white; border: 1px solid #ddd; padding: 15px; margin-top: 5px; display: none; z-index: 1000;">
+              <div class="bibtex-header">
+                  <span>BibTeX</span>
+                  <button class="copy-button" title="Copy to clipboard">
+                      <i class="fa-regular fa-copy"></i>
+                  </button>
+              </div>
+              <section id="bibtex-citation" class="level2">
+                <div class="sourceCode">
+                  <pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">islam2024application</span>,</span>
+              <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>    = {Application of Multimodal Large Language Models in Autonomous Driving},</span>
+              <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>   = {Islam, Md Robiul},</span>
+              <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>  = {arXiv preprint arXiv:2412.16410},</span>
+              <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>     = {2024}</span>
+              <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre>
+                  <button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button>
+              </div>
+          </li>
+          
+          <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+              <a href="https://arxiv.org/pdf/2412.16410" target="_blank" style="color: #000; text-decoration: none;">
+                  <i class="fa-solid fa-file-pdf" style="color: #000;"></i> Preprint
+              </a>
+          </li>
+          
+          <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+              <a href="" target="_blank" style="color: #000; text-decoration: none;">
+                  <i class="fa-brands fa-github" style="color: #000;"></i> Code
+              </a>
+          </li>
+          
+          <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+              <a href="" target="_blank" style="color: #000; text-decoration: none;">
+                  <i class="fa-solid fa-eye" style="color: #000;"></i> Project
+              </a>
+          </li>
+      </ul>
+  </div>
+
+    </div>
+
+      <div class="feature-image" style="flex: 1; max-width: 250px;">
+        <img src="./conference-papers/img/multimodal.png" alt="Sentiment Analysis" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;">
+      </div>
+    </div>
+  </div>
+  </li>
+
+
+<!-- 2024 PUBLICATIONS -->
+
+<!-- Phishguard -->
+<li class="project" data-year="2024" data-categories="Computer Vision, Semantic Segmentation, Agriculture, Deep Learning" style="border-left: none;">
+  <div class="publication-wrapper" style="border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; background: #fafafa; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <div class="project-container" style="display: flex; gap: 20px; align-items: start;">
+      <div class="project-content" style="flex: 2;">
+        <div class="listing-pub-info">
+      <p>
+        <span class="pub-type-badge pub-type-conference">Conference</span><b>Robiul Islam</b>, Md Mahamodul Islam, Mst. Suraiya Afrin, Anika Antara, Nujhat Tabassum and Al Amin. "PhishGuard: A Convolutional Neural
+        Network-Based Model for Detecting Phishing URLs
+        with Explainability Analysis." In <em>H3rd International Conference on Artificial Intelligence For Internet of Things, India</em>, 2024.
+       <br> arXiv: <a href="https://arxiv.org/pdf/2404.17960"><code>arXiv:2404.17960</code></a></p>
+  </div>
+
+  <div class="project-details-listing" style="background: none; box-shadow: none;">
+    <ul class="project-links" style="display: flex; gap: 10px; list-style: none; padding: 0;">
+        <li class="project-link details" style="width: fit-content; background: none; border: 2px solid #000; border-radius: 8px; padding: 8px 12px; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+            <a href="#" class="listing-name bibtex-toggle" style="display: inline-block; color: #000; text-decoration: none;">
+                <i class="fa-solid fa-circle-info" style="color: #000;"></i> BibTex »
+            </a>
+          
+          <div class="bibtex-content" style="position: absolute; background: white; border: 1px solid #ddd; padding: 15px; margin-top: 5px; display: none; z-index: 1000;">
+              <div class="bibtex-header">
+                  <span>BibTeX</span>
+                  <button class="copy-button" title="Copy to clipboard">
+                      <i class="fa-regular fa-copy"></i>
+                  </button>
+              </div>
+              <section id="bibtex-citation" class="level2">
+                <div class="sourceCode">
+                  <pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">islam2026fume</span>,</span>
+              <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>    = {PhishGuard: A Convolutional Neural Network-Based Model for Detecting Phishing URLs with Explainability Analysis},</span>
+              <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>   = {Islam, Md Robiul and Islam, Md Mahamodul and Afrin, Mst. Suraiya and Antara, Anika and Tabassum, Nujhat and Amin, Al},</span>
+              <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>  = {arXiv preprint arXiv:2404.17960},</span>
+              <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>     = {2024}</span>
+              <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre>
+                  <button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button>
+              </div>
+          </li>
+          
+          <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+              <a href="https://arxiv.org/abs/2404.17960" target="_blank" style="color: #000; text-decoration: none;">
+                  <i class="fa-solid fa-file-pdf" style="color: #000;"></i> Preprint
+              </a>
+          </li>
+          
+          <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+              <a href="" target="_blank" style="color: #000; text-decoration: none;">
+                  <i class="fa-brands fa-github" style="color: #000;"></i> Code
+              </a>
+          </li>
+          
+          <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+              <a href="" target="_blank" style="color: #000; text-decoration: none;">
+                  <i class="fa-solid fa-eye" style="color: #000;"></i> Project
+              </a>
+          </li>
+      </ul>
+  </div>
+
+    </div>
+
+      <div class="feature-image" style="flex: 1; max-width: 250px;">
+        <img src="./conference-papers/img/phishguard.png" alt="FUME Architecture" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;">
+      </div>
+    </div>
+  </div>
+  </li>
+
+  <!-- Bangla next word -->
+  <li class="project" data-year="2024" data-categories="Computer Vision, Semantic Segmentation, Agriculture, Deep Learning" style="border-left: none;">
+    <div class="publication-wrapper" style="border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; background: #fafafa; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <div class="project-container" style="display: flex; gap: 20px; align-items: start;">
+        <div class="project-content" style="flex: 2;">
+          <div class="listing-pub-info">
+        <p>
+          <span class="pub-type-badge pub-type-conference">Conference</span><b>Robiul Islam</b>, Al Amin and Aniqua Nusrat Zereen. "Enhancing Bangla Language Next Word Prediction
+          and Sentence Completion through Extended RNN
+          with Bi-LSTM Model On N-gram Language." In <em>3rd International Conference on Advancement in Electrical and Electronic Engineering (ICAEEE), Gazipur, Bangladesh</em>, 2024.
+         <br> arXiv: <a href="https://arxiv.org/pdf/2405.01873"><code>arXiv:2405.01873</code></a></p>
+    </div>
+  
+    <div class="project-details-listing" style="background: none; box-shadow: none;">
+      <ul class="project-links" style="display: flex; gap: 10px; list-style: none; padding: 0;">
+          <li class="project-link details" style="width: fit-content; background: none; border: 2px solid #000; border-radius: 8px; padding: 8px 12px; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+              <a href="#" class="listing-name bibtex-toggle" style="display: inline-block; color: #000; text-decoration: none;">
+                  <i class="fa-solid fa-circle-info" style="color: #000;"></i> BibTex »
+              </a>
+            
+            <div class="bibtex-content" style="position: absolute; background: white; border: 1px solid #ddd; padding: 15px; margin-top: 5px; display: none; z-index: 1000;">
+                <div class="bibtex-header">
+                    <span>BibTeX</span>
+                    <button class="copy-button" title="Copy to clipboard">
+                        <i class="fa-regular fa-copy"></i>
+                    </button>
+                </div>
+                <section id="bibtex-citation" class="level2">
+                  <div class="sourceCode">
+                    <pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">islam2024bangla</span>,</span>
+                <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>    = {Enhancing bangla language next word prediction and sentence completion through extended rnn with bi-lstm model on n-gram language},</span>
+                <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>   = {Islam, Md Robiul and Amin, Al and Zereen, Aniqua Nusrat},</span>
+                <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>  = {arXiv preprint arXiv:2405.01873},</span>
+                <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>     = {2024}</span>
+                <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre>
+                    <button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button>
+                </div>
+            </li>
+            
+            <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+                <a href="https://arxiv.org/pdf/2405.01873" target="_blank" style="color: #000; text-decoration: none;">
+                    <i class="fa-solid fa-file-pdf" style="color: #000;"></i> Preprint
+                </a>
+            </li>
+            
+            <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+                <a href="" target="_blank" style="color: #000; text-decoration: none;">
+                    <i class="fa-brands fa-github" style="color: #000;"></i> Code
+                </a>
+            </li>
+            
+            <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+                <a href="" target="_blank" style="color: #000; text-decoration: none;">
+                    <i class="fa-solid fa-eye" style="color: #000;"></i> Project
+                </a>
+            </li>
+        </ul>
+    </div>
+  
+      </div>
+  
+        <div class="feature-image" style="flex: 1; max-width: 250px;">
+          <img src="./conference-papers/img/nextbanglaword.png" alt="FUME Architecture" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;">
+        </div>
+      </div>
+    </div>
+    </li>
+  <!-- Sentiment polarity -->
+  <li class="project" data-year="2024" data-categories="Computer Vision, Semantic Segmentation, Agriculture, Deep Learning" style="border-left: none;">
+    <div class="publication-wrapper" style="border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; background: #fafafa; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <div class="project-container" style="display: flex; gap: 20px; align-items: start;">
+        <div class="project-content" style="flex: 2;">
+          <div class="listing-pub-info">
+        <p>
+          <span class="pub-type-badge pub-type-conference">Conference</span> Al Amin, Anik Sarkar, Md Mahmodul Islam, Asif Ahammad Miazee, <b>Md Robiul Islam</b>, and Md Mahmudul Hoque. "Sentiment Polarity Analysis of Bangla Food
+          Reviews Using Machine and Deep Learning lgorithms" In <em>3rd International Conference on Advancement in Electrical and Electronic Engineering (ICAEEE), Gazipur, Bangladesh</em>, 2024.
+          <br> arXiv: <a href="https://arxiv.org/pdf/2405.06667"><code>arXiv:2405.01873</code></a></p>
+    </div>
+  
+    <div class="project-details-listing" style="background: none; box-shadow: none;">
+      <ul class="project-links" style="display: flex; gap: 10px; list-style: none; padding: 0;">
+          <li class="project-link details" style="width: fit-content; background: none; border: 2px solid #000; border-radius: 8px; padding: 8px 12px; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+              <a href="#" class="listing-name bibtex-toggle" style="display: inline-block; color: #000; text-decoration: none;">
+                  <i class="fa-solid fa-circle-info" style="color: #000;"></i> BibTex »
+              </a>
+            
+            <div class="bibtex-content" style="position: absolute; background: white; border: 1px solid #ddd; padding: 15px; margin-top: 5px; display: none; z-index: 1000;">
+                <div class="bibtex-header">
+                    <span>BibTeX</span>
+                    <button class="copy-button" title="Copy to clipboard">
+                        <i class="fa-regular fa-copy"></i>
+                    </button>
+                </div>
+                <section id="bibtex-citation" class="level2">
+                  <div class="sourceCode">
+                    <pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">amin2024sentiment</span>,</span>
+                <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>    = {Sentiment polarity analysis of bangla food reviews using machine and deep learning algorithms},</span>
+                <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>   = {Amin, Al and Sarkar, Anik and Islam, Md Mahamodul and Miazee, Asif Ahammad and Islam, Md Robiul and Hoque, Md Mahmudult},</span>
+                <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>  = {arXiv preprint arXiv:2405.06667},</span>
+                <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>     = {2024}</span>
+                <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre>
+                    <button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button>
+                </div>
+            </li>
+            
+            <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+                <a href="https://arxiv.org/pdf/2405.06667" target="_blank" style="color: #000; text-decoration: none;">
+                    <i class="fa-solid fa-file-pdf" style="color: #000;"></i> Preprint
+                </a>
+            </li>
+            
+            <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+                <a href="" target="_blank" style="color: #000; text-decoration: none;">
+                    <i class="fa-brands fa-github" style="color: #000;"></i> Code
+                </a>
+            </li>
+            
+            <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+                <a href="" target="_blank" style="color: #000; text-decoration: none;">
+                    <i class="fa-solid fa-eye" style="color: #000;"></i> Project
+                </a>
+            </li>
+        </ul>
+    </div>
+  
+      </div>
+  
+        <div class="feature-image" style="flex: 1; max-width: 250px;">
+          <img src="./conference-papers/img/Sentiment.png" alt="Sentiment Analysis" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;">
+        </div>
+      </div>
+    </div>
+  </li>
+   <!-- English offensive text -->
+  <li class="project" data-year="2024" data-categories="Computer Vision, Semantic Segmentation, Agriculture, Deep Learning" style="border-left: none;">
+    <div class="publication-wrapper" style="border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; background: #fafafa; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <div class="project-container" style="display: flex; gap: 20px; align-items: start;">
+        <div class="project-content" style="flex: 2;">
+          <div class="listing-pub-info">
+        <p>
+          <span class="pub-type-badge pub-type-conference">Conference</span> Tonmoy Roy, <b>Md Robiul Islam</b>, Asif Ahammad Miazee, Anika Antara, Al Amin and Sunjim Hossain. "English offensive text detection using CNN based
+          Bi-GRU model" In <em>2nd International Conference on Information and Communication Technology (ICICT), BUET, Bangladesh</em>, 2024.
+          <br> arXiv: <a href="https://arxiv.org/pdf/2405.06667"><code>arXiv:2405.01873</code></a></p>
+    </div>
+  
+    <div class="project-details-listing" style="background: none; box-shadow: none;">
+      <ul class="project-links" style="display: flex; gap: 10px; list-style: none; padding: 0;">
+          <li class="project-link details" style="width: fit-content; background: none; border: 2px solid #000; border-radius: 8px; padding: 8px 12px; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+              <a href="#" class="listing-name bibtex-toggle" style="display: inline-block; color: #000; text-decoration: none;">
+                  <i class="fa-solid fa-circle-info" style="color: #000;"></i> BibTex »
+              </a>
+            
+            <div class="bibtex-content" style="position: absolute; background: white; border: 1px solid #ddd; padding: 15px; margin-top: 5px; display: none; z-index: 1000;">
+                <div class="bibtex-header">
+                    <span>BibTeX</span>
+                    <button class="copy-button" title="Copy to clipboard">
+                        <i class="fa-regular fa-copy"></i>
+                    </button>
+                </div>
+                <section id="bibtex-citation" class="level2">
+                  <div class="sourceCode">
+                    <pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">amin2024sentiment</span>,</span>
+                <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>    = {Sentiment polarity analysis of bangla food reviews using machine and deep learning algorithms},</span>
+                <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>   = {Amin, Al and Sarkar, Anik and Islam, Md Mahamodul and Miazee, Asif Ahammad and Islam, Md Robiul and Hoque, Md Mahmudult},</span>
+                <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>  = {arXiv preprint arXiv:2405.06667},</span>
+                <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>     = {2024}</span>
+                <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre>
+                    <button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button>
+                </div>
+            </li>
+            
+            <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+                <a href="https://arxiv.org/pdf/2405.06667" target="_blank" style="color: #000; text-decoration: none;">
+                    <i class="fa-solid fa-file-pdf" style="color: #000;"></i> Preprint
+                </a>
+            </li>
+            
+            <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+                <a href="" target="_blank" style="color: #000; text-decoration: none;">
+                    <i class="fa-brands fa-github" style="color: #000;"></i> Code
+                </a>
+            </li>
+            
+            <li class="project-link" style="border: 2px solid #000; border-radius: 8px; padding: 8px 12px; background: none; transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.boxShadow='none'">
+                <a href="" target="_blank" style="color: #000; text-decoration: none;">
+                    <i class="fa-solid fa-eye" style="color: #000;"></i> Project
+                </a>
+            </li>
+        </ul>
+    </div>
+  
+      </div>
+  
+        <div class="feature-image" style="flex: 1; max-width: 250px;">
+          <img src="./conference-papers/img/offensive_text.png" alt="Sentiment Analysis" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;">
+        </div>
+      </div>
+    </div>
+    </li>
+
+<section id="poster" class="level2">
+  <h2 data-anchor-id="poster">Poster</h2>
+  
+  <div class="row mt-4 mb-5">
+    Coming soon....
+    <!-- Poster 1 - Horizontal -->
+    <!-- <div class="col-md-6 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h4 class="card-title">Weed Growth Stage Detection</h4>
+          <div class="text-center my-2">
+            <a href="./poster/weeds_poster.pdf" target="_blank" rel="noopener noreferrer">
+              <img src="./poster/weed.png" alt="Weed Detection Poster" class="img-fluid poster-thumbnail" 
+                   style="max-height: 200px; cursor: pointer;">
+            </a>
+          </div>
+          <p class="card-text small">
+            Click the image to view the full poster.
+          </p>
+          <div class="text-center">
+            <a href="./poster/weeds_poster.pdf" download class="btn btn-sm btn-outline-primary">
+              <i class="fa-solid fa-download me-2"></i>Download PDF
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+    <!-- Poster 2 - Vertical -->
+    <!-- <div class="col-md-6 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h4 class="card-title">Cannabis Seed Variant Detection</h4>
+          <div class="text-center my-2">
+            <a href="./poster/Cannabis_updated_poster.pdf" target="_blank" rel="noopener noreferrer">
+              <img src="./poster/Cannabis.png" alt="Cannabis Seed Detection Poster" class="img-fluid poster-thumbnail" 
+                   style="max-height: 200px; cursor: pointer;">
+            </a>
+          </div>
+          <p class="card-text small">
+            Click the image to view the full poster.
+          </p>
+          <div class="text-center">
+            <a href="./poster/Cannabis_updated_poster.pdf" download class="btn btn-sm btn-outline-primary">
+              <i class="fa-solid fa-download me-2"></i>Download PDF
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</div>
+<!-- ... rest of your existing code ... -->
+
+
+
+
+        
+</ul>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+</section>
+
+</main>
+<script id="quarto-html-after-body" src="../site_libs/quarto-after-body/quarto-after-body.js" type="application/javascript">
+</script>
+
+<!-- Year Filter JavaScript -->
+<script src="../html/research-scripts.js"></script>
+
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <p><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2026 Robiul Islam (This website clone from Taminul Islam repository)</span></p>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+</body></html>
