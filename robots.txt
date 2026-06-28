@@ -19,7 +19,6 @@ Disallow: /.DS_Store
 Disallow: /Thumbs.db
 
 # Sitemap location
-Sitemap: https://taminul.com/sitemap.xml
 
 # Crawl delay (optional - be respectful)
 Crawl-delay: 1 
